@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+// Imports and variables
+@import 'variables';
+// Optional -- import Twitter Bootstrap
+//@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import 'helpers';
+//@import 'component';
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  height: 100%;
+  color: #2f3b49;
+}
+
+::selection {
+
+}
+
+img{ max-width: 100%; }
