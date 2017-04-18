@@ -16,17 +16,17 @@
   transform: translate(-50%, -50%);
 }
 
-%hide-text{
-  overflow:hidden;
-  text-indent:-9000px;
-  display:block;
+%hide-text {
+  overflow: hidden;
+  text-indent: -9000px;
+  display: block;
 }
 
-.centered{
+.centered {
   text-align: center;
 }
 
-%ellipsis{
+%ellipsis {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
